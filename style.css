@@ -5,6 +5,7 @@
 @import "./res/css/interests.css";
 @import "./res/css/skills.css";
 @import "./res/css/social.css";
+@import "./res/css/variables.css";
 
 * {
   box-sizing: border-box;
