@@ -1,0 +1,12 @@
+@import "./res/css/aboutme.css";
+@import "./res/css/contact.css";
+@import "./res/css/cv.css";
+@import "./res/css/header_footer.css";
+@import "./res/css/interests.css";
+@import "./res/css/skills.css";
+@import "./res/css/social.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
