@@ -99,3 +99,78 @@ footer {
 footer nav {
   padding-top: 8vh;
 }
+
+@media (max-width: 400px) {
+  header {
+    color: darkslategray;
+    background-image: none;
+    display: grid;
+
+    grid-template-rows: 15vh 20vh 20vh 20vh 20vh;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+  }
+
+  nav {
+    background-color: lightgray;
+    overflow-x: scroll;
+
+    white-space: nowrap;
+    grid-row-start: 1;
+    grid-column-start: 1;
+
+    grid-row-end: 2;
+    grid-column-end: 5;
+  }
+  nav ul:first-child {
+    margin-left: 9em;
+  }
+
+  nav a {
+    color: darkslategray;
+    padding-top: 5%;
+  }
+
+  .profpic {
+    margin-top: 2em;
+    max-width: 7em;
+    border-radius: 100%;
+    background-color: #bbb79d;
+    grid-row-start: 2;
+    grid-column-start: 2;
+
+    grid-row-end: 3;
+    grid-column-end: 4;
+  }
+
+  h1 {
+    margin: auto;
+    font-size: 1em;
+    text-decoration: underline;
+
+    grid-row-start: 3;
+    grid-column-start: 2;
+
+    grid-row-end: 4;
+    grid-column-end: 4;
+  }
+
+  h2 {
+    font-size: 0.8em;
+    color: darkslategray;
+    white-space: nowrap;
+    margin: 0 auto;
+    grid-auto-flow: column;
+    grid-row-start: 4;
+    grid-column-start: 2;
+
+    grid-row-end: 5;
+    grid-column-end: 4;
+  }
+
+  .icon {
+    opacity: 0;
+  }
+  .footer {
+    overflow-x: scroll;
+  }
+}
